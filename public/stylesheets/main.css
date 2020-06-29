@@ -1,0 +1,192 @@
+body {
+    font-family: 'Lora', serif;
+    background: #ffffff;  /* fallback for old browsers */
+    background-repeat: no-repeat;
+    font-size: 1.2rem;
+    width: 100%;
+}
+html {
+    font-size: 62.5%;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: #05243c;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar-brand {
+    font-size: 2rem;
+    background-color: #05243c;  
+}
+.dropdown-menu {
+    background-color: #05243c;
+}
+.dropdown-item{
+    color: white;
+}
+.carousel_container {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.dropdown-item {
+    font-size: 1.6rem;
+}
+.contact_container{
+    margin-top: 100px;
+}
+.contact_jumbo {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.contact_jumbo p{
+    font-size: 1.8rem;
+}
+.lead {
+    padding: 10px;
+    margin-left: 20px;
+    line-height: 3.4rem;
+    letter-spacing: 0.1rem;
+}
+.products-h1 {
+    font-size: 7rem; 
+    font-weight: bold; 
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.slanted {
+    transform: skewY(-4deg);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.slanted p {
+    transform: skewY(4deg);
+    text-align: center;
+    padding: 4rem;
+    font-size: 2rem;
+}
+.slanted h1 {
+    transform: skewY(4deg);
+    text-align: center;
+}
+.hang {
+    margin-top: 50px;
+}
+.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    transform: skewY(4deg);
+    margin-left: 200px; 
+    margin-right: 200px;  
+}
+.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double black;
+    color: black;
+    text-align: center;
+}
+.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+}
+
+.card {
+    height: 50rem;
+    margin: 30px 20px 20px 20px;
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+    background-color: #05243c;
+    color: white;
+}
+.card-text {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.bags-image {
+    height: 75%;
+    width: 100%;
+    border-top: 700px;
+    border-bottom: 700px;
+    border-left: 700px;
+    border-right: 700px;
+}
+.bags-body {
+    font-size: 2rem;
+}
+.storage-image {
+    height: 75%;
+    width: 100%;
+}
+.storage-body {
+    font-size: 2rem;
+}
+.hanging-image {
+    height: 75%;
+    width: 100%;
+}
+.hanging-body {
+    font-size: 2rem;
+}
+.zipper-image {
+    height: 75%;
+    width: 100%;
+}
+.zipper-body {
+    font-size: 2rem;
+}
+.pouf-image {
+    height: 75%;
+    width: 100%;
+}
+.pouf-body {
+    font-size: 2rem;
+}
+.page-footer p {
+    font-size: 1.6rem;
+}
+.page-footer h5 {
+    font-size: 2.2rem;
+}
+.about-footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+.about-products {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;   
+}
+.about-products a:hover {
+    color: white;
+    text-decoration: none;
+}
+.about-adress {
+    margin-top: 30px;
+    font-size: 1.4rem; 
+    margin-bottom: 20px;  
+}
+.about-adress a:hover {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    margin-top: 50px;
+}
+

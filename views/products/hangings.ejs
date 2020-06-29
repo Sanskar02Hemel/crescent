@@ -1,0 +1,31 @@
+<%- include("../partials/header.ejs") %> 
+<main>
+    <div class= "container" style="margin-top: 100px; text-align: center;">
+        <h1 class="products-h1">Wall & Pocket Hangings</h1>
+        <hr class="style-eight">
+    </div>
+    <% if(hangings.length > 0) { %>
+    <div class="container hang">
+        <div class="row">
+            <% for(let hanging of hangings) { %>
+            <div class="col-md-4">
+                <div class="card ">
+                    <img src="<%= hanging.img %>" class="card-img-top hanging-image" alt="PIC TEST">
+                    <div class="card-body hanging-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">
+                            <%= hanging.desc %>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+            <% }else{ %>
+        </div>
+    </div>
+    <div>
+        No events
+    </div>
+    <% } %>
+</main>
+<%- include("../partials/footer.ejs") %>

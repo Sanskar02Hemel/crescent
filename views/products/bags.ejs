@@ -1,0 +1,32 @@
+<%- include("../partials/header.ejs") %>
+<main>
+    <div class="container" style="margin-top: 100px; text-align: center; color: black;">
+        <h1 class="products-h1">Bags</h1>
+        <hr class="style-eight">
+    </div>
+    <% if(bags.length > 0) { %>
+    <div class="container">
+        <div class="row">
+            <% for(let bag of bags) { %>
+            <div class="col-md-4">
+                <div class="card ">
+                    <img src="<%= bag.img %>" class="card-img-top bags-image" alt="PIC TEST">
+                    <div class="card-body bags-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">
+                            <%= bag.desc %> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+            <% }else{ %>
+        </div>
+    </div>
+    <div>
+        No events
+    </div>
+    <% } %>
+</main>
+
+<%- include("../partials/footer.ejs") %>

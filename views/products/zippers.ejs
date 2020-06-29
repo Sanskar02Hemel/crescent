@@ -1,0 +1,31 @@
+<%- include("../partials/header.ejs") %>
+<main>
+    <div class="container" style="margin-top: 100px; text-align: center;">
+        <h1 class="products-h1">Crunch Storage Zipper Bin</h1>
+        <hr class="style-eight">
+    </div>
+    <% if(zippers.length > 0) { %>
+    <div class="container ">
+        <div class="row">
+            <% for(let zipper of zippers) { %>
+            <div class="col-md-4">
+                <div class="card ">
+                    <img src="<%= zipper.img %>" class="card-img-top zipper-image" alt="PIC TEST">
+                    <div class="card-body zipper-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">
+                            <%= zipper.desc %>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+            <% }else{ %>
+        </div>
+    </div>
+    <div>
+        No events
+    </div>
+    <% } %>
+</main>
+<%- include("../partials/footer.ejs") %>

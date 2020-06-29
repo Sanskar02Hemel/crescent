@@ -1,0 +1,31 @@
+<%- include("../partials/header.ejs") %>
+<main>
+    <div class="container" style="margin-top: 100px; text-align: center;">
+        <h1 class="products-h1">Cushion & Poufs</h1>
+        <hr class="style-eight">
+    </div>
+    <% if(poufs.length > 0) { %>
+    <div class="container ">
+        <div class="row">
+            <% for(let pouf of poufs) { %>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="<%= pouf.img %>" class="card-img-top pouf-image" alt="PIC TEST">
+                    <div class="card-body pouf-body">
+                        <h5 class="card-title"</h5>
+                        <p class="card-text">
+                            <%= pouf.desc %>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+            <% }else{ %>
+        </div>
+    </div>
+    <div>
+        No events
+    </div>
+    <% } %>
+</main>
+<%- include("../partials/footer.ejs") %>
